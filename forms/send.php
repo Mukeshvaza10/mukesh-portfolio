@@ -13,8 +13,8 @@ use PHPMailer\PHPMailer\Exception;
   	$mail->isSMTP();
   	$mail->Host = 'smtp.gmail.com';
   	$mail->SMTPAuth = true;
-  	$mail->Username = 'vaza.ms.52@gmail.com';
-  	$mail->Password = 'smlwhrwfppwnsgdb';
+  	$mail->Username = 'example@gmail.com';
+  	$mail->Password = 'test@123';
   	$mail->SMTPSecure = 'ssl';
   	$mail->Port = 465; // Adjust the port if required  	
 
